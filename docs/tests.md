@@ -45,6 +45,9 @@ Now I get the error:
 whisper_online_server.py: error: argument --model: invalid choice: 'distil-large-v3' (choose from 'tiny.en', 'tiny', 'base.en', 'base', 'small.en', 'small', 'medium.en', 'medium', 'large-v1', 'large-v2', 'large-v3', 'large', 'large-v3-turbo')
 ```
 
+```shell
+$ python3 -m whisper_online_server --backend faster-whisper --model distil-large-v3 --model_cache_dir /mnt/ssd2/hmf/VSCodeProjects/faster-whisper/models -l INFO
+
 
 ```shell
 arecord -f S16_LE -c1 -r 16000 -t raw -D default | nc localhost 43007
