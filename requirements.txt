@@ -1,0 +1,5 @@
+librosa
+soundfile
+
+# faster-whisper
+-e /mnt/ssd2/hmf/VSCodeProjects/faster-whisper
